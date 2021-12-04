@@ -7,7 +7,7 @@ This Addon watches the MS Teams log file for status changes
 
 ## Installation
 Extract the contents of MicrosoftTeamsMonitor_0.0.0.x.zip to:
-```%ProgramData%\IOTLink\Addons\```
+```%ProgramData%\IOTLink\Addons\```. 
 This should create a folder named .\MicrosoftTeamsMonitor
 
 
@@ -16,7 +16,7 @@ Edit config.yaml and change:
 ```teams:
      logfile: 
 ```
-Point it to your Teams log file. Typically: C:\Users\YOUR-USERNAME-HERE\AppData\Roaming\Microsoft\Teams\logs.txt
+Point it to your Teams log file. Typically: ```C:\Users\YOUR-USERNAME-HERE\AppData\Roaming\Microsoft\Teams\logs.txt```. 
 You can obtain the full path by running this in PowerShell as the user who's status you'd like to monitor with IoTLink:
 ```
 Write-Host $env:APPDATA\Microsoft\Teams\logs.txt
