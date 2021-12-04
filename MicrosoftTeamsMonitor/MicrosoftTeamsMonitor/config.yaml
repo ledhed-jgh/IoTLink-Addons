@@ -1,0 +1,10 @@
+############################################################################
+# Microsoft Teams
+############################################################################
+# Typically: C:\Users\YOUR-USERNAME-HERE\AppData\Roaming\Microsoft\Teams\logs.txt
+#
+# You can obtain the log file path by running this command in PowerShell:
+# Write-Host $env:APPDATA\Microsoft\Teams\logs.txt
+############################################################################
+teams:
+  logfile: C:\Users\YOUR-USERNAME-HERE\AppData\Roaming\Microsoft\Teams\logs.txt

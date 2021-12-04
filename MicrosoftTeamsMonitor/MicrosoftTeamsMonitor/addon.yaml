@@ -1,0 +1,9 @@
+########################################################################
+# Addon Information
+########################################################################
+enabled: true
+id: MicrosoftTeamsMonitor
+name: Microsoft Teams Monitor
+file: MicrosoftTeamsMonitor.dll
+minApiVersion: 2.2.0
+maxApiVersion: 
