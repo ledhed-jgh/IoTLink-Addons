@@ -4,6 +4,16 @@ Addons for IoTLink
 # Microsoft Teams Monitor
 This Addon watches the MS Teams log file for status changes
 
+Changes:
+- Initial Release: 0.0.1
+<br/>
+
+## :bookmark_tabs: Table of Contents
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Home Assistant](#home-assistant)
+<br/>
+
 
 ## Installation
 Extract the contents of MicrosoftTeamsMonitor_0.0.0.x.zip to:
@@ -24,8 +34,8 @@ Write-Host $env:APPDATA\Microsoft\Teams\logs.txt
 
 
 ## Home Assistant
-I tried to include code to enable MQTT Autodiscovery in Home Assistant, but I haven't tested it as I don't currently run MQTT Autodiscovery.
-MQTT Topic:
+I tried to include code to enable MQTT Autodiscovery in Home Assistant, but I haven't tested it as I don't currently run MQTT Autodiscovery.<br/>
+**MQTT Topic:**
 ```
 PREFIX/CLIENTID/microsoft-teams-monitor/status
 ```
