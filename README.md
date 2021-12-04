@@ -29,8 +29,8 @@ MQTT Topic:
 ```
 PREFIX/CLIENTID/microsoft-teams-monitor/status
 ```
-PREFIX = 'prefix:' from %ProgramData%\IOTLink\Configs\configuration.yaml under 'General MQTT Settings'
-CLIENTID = 'clientId:' from %ProgramData%\IOTLink\Configs\configuration.yaml under 'General MQTT Settings'
+PREFIX = 'prefix:' from %ProgramData%\IOTLink\Configs\configuration.yaml under 'General MQTT Settings'</br>
+CLIENTID = 'clientId:' from %ProgramData%\IOTLink\Configs\configuration.yaml under 'General MQTT Settings'</br>
 
 NOTE: If you leave the 'clientId:' blank I believe IoTLink uses a combination of WORKGROUP/HOSTNAME
 
