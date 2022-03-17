@@ -49,7 +49,7 @@ NOTE: If you leave the 'clientId:' blank I believe IoTLink uses a combination of
 sensor:
   - platform: mqtt
     name: My Teams Status
-    state_topic: "iotlink/workgroup/hostname/microsoft-teams/status"
+    state_topic: "iotlink/workgroup/hostname/microsoft-teams-monitor/status"
     value_template: "{{ value }}"
     icon: mdi:microsoft-teams
 ```
